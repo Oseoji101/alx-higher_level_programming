@@ -3,7 +3,5 @@ from add_0 import add
 a = 1
 b = 2
 
-sum = add(a, b)
-
 if--name-- = "--main--":
-    print("{:d} + {:d} = {:d}".format(a, b, sum))
+    print("{:d} + {:d} = {:d}".format(a, b, add(a, b)))
